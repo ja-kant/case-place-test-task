@@ -1,0 +1,30 @@
+/* 
+    Created on : 1 сент. 2022 г., 18:05:14
+    Author     : yakovlev.a
+*/
+
+.magic_button{
+    z-index: 2;
+    position: absolute;
+    min-width: 6rem;    
+    height: 8vh;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px #fff solid;
+    background-color: #5ac45a;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.magic_button:hover {
+    transition: background-color 0.5s ease;
+    background-color: #3be23b;
+    /*color: #5ac45a;*/
+    border: 2px #3be23b solid;
+}
+
+.magic_canvas{
+    border: 1px dashed #5ac45a;
+    border-radius: 10px;
+}
